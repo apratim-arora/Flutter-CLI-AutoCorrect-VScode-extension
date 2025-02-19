@@ -4,8 +4,8 @@
 Flutter Command AutoCorrect is a VS Code extension designed to fix mistyped Flutter and Dart commands in the terminal before execution. It ensures that common typing mistakes don't break the workflow, allowing Flutter developers to work efficiently.
 
 ## Features
-- Automatically corrects mistyped Flutter/Dart commands in the terminal.
-- Works seamlessly with the existing VS Code terminal (no pseudo-terminal required).
+- Automatically corrects mistyped Flutter/Dart commands in the Command Palette (`Ctrl + Shift + P`).
+- Works seamlessly with the existing VS Code terminal for execution (no pseudo-terminal required).
 - Supports all major Flutter and Dart CLI commands.
 - Lightweight and efficient.
 
