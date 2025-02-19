@@ -1,7 +1,7 @@
 {
-  "name": "flutter-dart-command-corrector",
-  "displayName": "flutter-dart-command-corrector",
-  "description": "fix flutter and dart command if incorrect without wasting your time",
+  "name": "flutter-cli-autocorrect",
+  "displayName": "Flutter CLI Autocorrect",
+  "description": "Automatically corrects mistyped Flutter and Dart CLI commands in the terminal, saving time and frustration.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
@@ -11,13 +11,13 @@
   ],
   "activationEvents": [
     "onStartupFinished",
-    "onCommand:flutter-dart-command-corrector.fixCommand"
+    "onCommand:flutter-cli-autocorrect.fixCommand"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "flutter-dart-command-corrector.fixCommand",
+        "command": "flutter-cli-autocorrect.fixCommand",
         "title": "Fix: Flutter/Dart Terminal Input"
       }
     ]
@@ -40,5 +40,17 @@
     "typescript": "^5.7.3",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
-  }
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/MY_GITHUB_USERNAME"
+  },
+  "badges": [
+    {
+      "label": "Buy Me a Coffee",
+      "message": "Support Me",
+      "color": "yellow",
+      "url": "https://www.buymeacoffee.com/MY_USERNAME"
+    }
+  ]
 }

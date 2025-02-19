@@ -474,10 +474,10 @@ function correctCommand(input: string): string {
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand(
-      "flutter-dart-command-corrector.fixCommand",
+      "flutter-cli-autocorrect.fixCommand",
       async () => {
         const userInput = await vscode.window.showInputBox({
-          prompt: "Enter a Flutter/Dart command",
+          prompt: "Enter a Flutter/Dart CLI command",
           placeHolder: "flutter run, dart pub get, etc.",
         });
 
