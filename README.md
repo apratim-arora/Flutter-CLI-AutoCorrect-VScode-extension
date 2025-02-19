@@ -12,7 +12,7 @@ Flutter Command AutoCorrect is a VS Code extension designed to fix mistyped Flut
 ## Installation
 1. Open VS Code.
 2. Go to the Extensions Marketplace (`Ctrl + Shift + X`).
-3. Search for `Flutter Command AutoCorrect`.
+3. Search for `Flutter CLI AutoCorrect`.
 4. Click **Install**.
 5. Restart VS Code if necessary.
 
