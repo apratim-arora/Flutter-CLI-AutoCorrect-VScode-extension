@@ -28,7 +28,7 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "node --force-node-api-uncaught-exceptions-policy=true ./out/test/runTest.js"
   },
   "devDependencies": {
     "@types/vscode": "^1.97.0",
@@ -41,16 +41,9 @@
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
   },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/MY_GITHUB_USERNAME"
-  },
-  "badges": [
-    {
-      "label": "Buy Me a Coffee",
-      "message": "Support Me",
-      "color": "yellow",
-      "url": "https://www.buymeacoffee.com/MY_USERNAME"
-    }
-  ]
+  "funding": "https://github.com/sponsors/apratim-arora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apratim-arora/Flutter-CLI-AutoCorrect-VScode-extension.git"
+  }
 }
